@@ -79,7 +79,7 @@ int main() {
         }
 		cout << "Wpisz enter aby kontynuowac..." << endl;
         cin.ignore();
-        while (cin.get() != '\n');
+        cin.get();
         system("cls");
     }
 }
